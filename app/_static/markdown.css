@@ -4,7 +4,7 @@
  */
 
 :root {
-    --color-text-primary: #333;
+    --color-text-primary: #fff;
     --color-text-tertiary: #777;
     --color-text-link: #4078c0;
     --color-bg-primary: #fff;
@@ -20,17 +20,18 @@
     --color-markdown-code-bg: #1b1f230d;
 }
 [data-theme="dark"] {
-    --color-text-primary: #c9d1d9;
-    --color-text-tertiary: #8b949e;
+    --color-text-primary: #fff;
+    --color-text-tertiary: #777;
     --color-text-link: #58a6ff;
-    --color-bg-primary: #0d1117;
-    --color-bg-secondary: #0d1117;
-    --color-bg-tertiary: #161b22;
+    --color-bg-primary: #0f0f0f;
+    --color-bg-secondary: #0f0f0f;
+    --color-bg-tertiary: #1e1e1e;
     --color-border-primary: #30363d;
     --color-border-secondary: #21262d;
     --color-border-tertiary: #6e7681;
+    --color-text-orange: #ff6f61;
     --color-kbd-foreground: #b1bac4;
-    --color-markdown-blockquote-border: #3b434b;
+    --color-markdown-blockquote-border: #ff6f61;
     --color-markdown-table-border: #3b434b;
     --color-markdown-table-tr-border: #272c32;
     --color-markdown-code-bg: #f0f6fc26;
@@ -49,15 +50,12 @@
 }
 .markdown-body {
   font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 16px;
+  font-size: 18px;
   color: var(--color-text-primary);
   line-height: 1.6;
   word-wrap: break-word;
   padding: 45px;
   background: var(--color-bg-primary);
-  border: 1px solid var(--color-border-primary);
-  -webkit-border-radius: 0 0 3px 3px;
-  border-radius: 0 0 3px 3px;
 }
 .markdown-body > *:first-child {
   margin-top: 0 !important;
@@ -186,7 +184,7 @@
   margin-left: 0;
   margin-right: 0;
   padding: 0 15px;
-  color: var(--color-text-tertiary);
+  color: var(--color-text-orange);
   border-left: 4px solid var(--color-markdown-blockquote-border);
 }
 .markdown-body table {
@@ -258,7 +256,7 @@
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   margin: 0;
-  font-size: 85%;
+  font-size: 90%;
   background-color: var(--color-markdown-code-bg);
   -webkit-border-radius: 3px;
   border-radius: 3px;
